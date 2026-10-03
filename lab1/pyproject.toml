@@ -1,0 +1,10 @@
+[project]
+name = "lab1-backprop"
+version = "1.0.0"
+description = "ЛР1: ручний backprop у NumPy + перевірка PyTorch / чисельним диференціюванням"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==2.5.3",
+    "torch==2.14.1",
+    "scikit-learn==1.9.1",
+]

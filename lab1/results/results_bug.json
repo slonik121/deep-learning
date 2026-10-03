@@ -1,0 +1,63 @@
+{
+  "divide_by_n": false,
+  "n_train": 105,
+  "loss_numpy": 1.4562007801142816,
+  "loss_torch": 1.4562007801142818,
+  "torch_rows": [
+    {
+      "name": "Втрата",
+      "max_abs_diff": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "name": "Градієнт W1",
+      "max_abs_diff": 18.51813798075919,
+      "passed": false
+    },
+    {
+      "name": "Градієнт b1",
+      "max_abs_diff": 15.641093948478263,
+      "passed": false
+    },
+    {
+      "name": "Градієнт W2",
+      "max_abs_diff": 34.193432939632565,
+      "passed": false
+    },
+    {
+      "name": "Градієнт b2",
+      "max_abs_diff": 11.197086181821378,
+      "passed": false
+    }
+  ],
+  "numeric_rows": [
+    {
+      "param": "W1[0, 0]",
+      "backward": -2.0916193547083086,
+      "numeric": -0.019920184390898044,
+      "abs_diff": 2.0716991703174106,
+      "passed": false
+    },
+    {
+      "param": "b1[0]",
+      "backward": -7.409441716359898,
+      "numeric": -0.0705661116207068,
+      "abs_diff": 7.338875604739191,
+      "passed": false
+    },
+    {
+      "param": "W2[0, 0]",
+      "backward": 14.19917190357499,
+      "numeric": 0.13523020869765645,
+      "abs_diff": 14.063941694877334,
+      "passed": false
+    },
+    {
+      "param": "b2[0]",
+      "backward": 8.979772708405362,
+      "numeric": 0.08552164498798476,
+      "abs_diff": 8.894251063417377,
+      "passed": false
+    }
+  ]
+}
