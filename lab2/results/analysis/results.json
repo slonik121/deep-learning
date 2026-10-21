@@ -1,0 +1,58 @@
+{
+  "validation": {
+    "std": {
+      "threshold": "0.5",
+      "TP": 71,
+      "FP": 9,
+      "FN": 27,
+      "TN": 56854,
+      "C": 279
+    },
+    "star": {
+      "threshold": "0.031193900853395462",
+      "TP": 82,
+      "FP": 34,
+      "FN": 16,
+      "TN": 56829,
+      "C": 194
+    },
+    "inf": {
+      "threshold": "inf",
+      "TP": 0,
+      "FP": 0,
+      "FN": 98,
+      "TN": 56863,
+      "C": 980
+    }
+  },
+  "validation_roc_auc": 0.97331771637308,
+  "validation_average_precision": 0.7847274206415048,
+  "test": {
+    "star": {
+      "threshold": "0.031193900853395462",
+      "TP": 80,
+      "FP": 43,
+      "FN": 19,
+      "TN": 56820,
+      "C": 233
+    },
+    "std": {
+      "threshold": "0.5",
+      "TP": 71,
+      "FP": 8,
+      "FN": 28,
+      "TN": 56855,
+      "C": 288
+    },
+    "inf": {
+      "threshold": "inf",
+      "TP": 0,
+      "FP": 0,
+      "FN": 99,
+      "TN": 56863,
+      "C": 990
+    }
+  },
+  "test_precision_at_t_star": 0.6504065040650406,
+  "test_recall_at_t_star": 0.8080808080808081
+}

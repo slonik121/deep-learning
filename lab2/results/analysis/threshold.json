@@ -1,0 +1,18 @@
+{
+  "t_star": "0.031193900853395462",
+  "t_star_float64_hex": "0x1.ff14b40000000p-6",
+  "rule": "predict fraud (1) iff s >= t",
+  "cost": "C = 10*FN + FP",
+  "selected_on": "validation",
+  "tie_break": "largest threshold among minima of C",
+  "validation": {
+    "threshold": "0.031193900853395462",
+    "TP": 82,
+    "FP": 34,
+    "FN": 16,
+    "TN": 56829,
+    "C": 194
+  },
+  "n_candidates": 55980,
+  "n_thresholds_with_min_cost": 1
+}

@@ -1,0 +1,14 @@
+# Набір даних не додається до репозиторію (див. README)
+creditcard.csv
+
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info
+.venv/
+.pytest_cache/
+
+# Повторне навчання для звірки
+results_retrain/

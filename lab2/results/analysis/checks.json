@@ -1,0 +1,148 @@
+{
+  "A": {
+    "passed": true,
+    "problems": [],
+    "t_star": 0.4,
+    "C_min": 2,
+    "tie_candidates": [
+      0.4
+    ],
+    "table": [
+      {
+        "threshold": "+inf",
+        "TP": 0,
+        "FP": 0,
+        "FN": 2,
+        "TN": 4,
+        "C": 20
+      },
+      {
+        "threshold": 0.9,
+        "TP": 0,
+        "FP": 1,
+        "FN": 2,
+        "TN": 3,
+        "C": 21
+      },
+      {
+        "threshold": 0.7,
+        "TP": 1,
+        "FP": 2,
+        "FN": 1,
+        "TN": 2,
+        "C": 12
+      },
+      {
+        "threshold": 0.4,
+        "TP": 2,
+        "FP": 2,
+        "FN": 0,
+        "TN": 2,
+        "C": 2
+      },
+      {
+        "threshold": 0.2,
+        "TP": 2,
+        "FP": 3,
+        "FN": 0,
+        "TN": 1,
+        "C": 3
+      },
+      {
+        "threshold": 0.1,
+        "TP": 2,
+        "FP": 4,
+        "FN": 0,
+        "TN": 0,
+        "C": 4
+      }
+    ]
+  },
+  "B": {
+    "passed": true,
+    "problems": [],
+    "t_star": "+inf",
+    "C_min": 0,
+    "tie_candidates": [
+      "+inf"
+    ],
+    "table": [
+      {
+        "threshold": "+inf",
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 3,
+        "C": 0
+      },
+      {
+        "threshold": 0.9,
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "TN": 2,
+        "C": 1
+      },
+      {
+        "threshold": 0.6,
+        "TP": 0,
+        "FP": 2,
+        "FN": 0,
+        "TN": 1,
+        "C": 2
+      },
+      {
+        "threshold": 0.3,
+        "TP": 0,
+        "FP": 3,
+        "FN": 0,
+        "TN": 0,
+        "C": 3
+      }
+    ]
+  },
+  "C": {
+    "passed": true,
+    "problems": [],
+    "t_star": 0.8,
+    "C_min": 10,
+    "tie_candidates": [
+      0.8,
+      0.5
+    ],
+    "table": [
+      {
+        "threshold": "+inf",
+        "TP": 0,
+        "FP": 0,
+        "FN": 2,
+        "TN": 11,
+        "C": 20
+      },
+      {
+        "threshold": 0.8,
+        "TP": 1,
+        "FP": 0,
+        "FN": 1,
+        "TN": 11,
+        "C": 10
+      },
+      {
+        "threshold": 0.5,
+        "TP": 2,
+        "FP": 10,
+        "FN": 0,
+        "TN": 1,
+        "C": 10
+      },
+      {
+        "threshold": 0.2,
+        "TP": 2,
+        "FP": 11,
+        "FN": 0,
+        "TN": 0,
+        "C": 11
+      }
+    ]
+  }
+}
